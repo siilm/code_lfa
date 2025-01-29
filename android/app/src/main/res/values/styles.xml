@@ -19,6 +19,8 @@
     </style>
 
     <style name="WebTheme" parent="@android:style/Theme.NoTitleBar.Fullscreen">
+        <item name="android:windowFullscreen">true</item>
+        <item name="android:windowActionBar">false</item>
         <item name="android:windowBackground">?android:colorBackground</item>
         <item name="android:windowAnimationStyle">@style/windowAnimation</item>
     </style>
