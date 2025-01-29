@@ -24,10 +24,10 @@ android {
         // 本地编译注释以下代码
         // start
         release {
-            keyAlias keystoreProperties['keyAlias']
-            keyPassword keystoreProperties['keyPassword']
-            storeFile file(keystoreProperties['storeFile'])
-            storePassword keystoreProperties['storePassword']
+            // keyAlias keystoreProperties['keyAlias']
+            // keyPassword keystoreProperties['keyPassword']
+            // storeFile file(keystoreProperties['storeFile'])
+            // storePassword keystoreProperties['storePassword']
         }
     // end
     }
